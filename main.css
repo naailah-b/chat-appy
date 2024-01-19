@@ -1,12 +1,12 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "Rubik";
 }
 
 .container {
     display: flex;
     flex-direction: column;
-
 }
 
 .header {
@@ -16,13 +16,18 @@ body {
     justify-content: space-around;
 }
 
-#title {
+#title{
     font-size: 30px;
 }
 
-a {
+#links {
+    display: flex;
+}
+
+a, #settings {
     color: black;
     font-size: 24px;
+    margin: 4px;
 }
 
 .ctn2 {
@@ -38,4 +43,21 @@ a {
 
 .person {
     
+}
+
+.body-ctn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+#idk {
+    width: 1200px;
+}
+
+.newClass {
+    filter:(blur(3px));
+    color: red;
 }

@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    
+    font-family: 'Rubik', sans-serif;
 }
 
 .container {
@@ -59,7 +61,7 @@ a {
 
 .show {
     display: flex;
-    font-size: 14px;
+    font-size: 12px;
     align-items: center;
     justify-content: center;
     margin-bottom:12px;
