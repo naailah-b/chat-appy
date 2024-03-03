@@ -13,7 +13,8 @@ body {
     display: flex;
     flex-direction: row;
     padding: 18px;
-    justify-content: space-around;
+    margin: 0px 80px 0px 80px;
+    justify-content: space-between;
 }
 
 #title{
@@ -26,8 +27,8 @@ body {
 
 a, #settings {
     color: black;
-    font-size: 24px;
-    margin: 4px;
+    font-size: 18px;
+    margin: 18px;
 }
 
 .ctn2 {
@@ -42,7 +43,17 @@ a, #settings {
 }
 
 .person {
+    display: flex;
     
+    margin-bottom: 30px;
+    align-items: center;
+    background-color: rgb(104, 125, 143);
+}
+
+#friendPfp {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
 }
 
 .body-ctn {

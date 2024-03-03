@@ -7,3 +7,14 @@ document.querySelector('#check').addEventListener('click', () => {
         show.type = 'password';
     }
 })
+
+let btn = document.querySelector('#submit');
+let user = document.querySelector('#user');
+let pass = document.querySelector('#pass');
+
+btn.addEventListener('click', () => {
+    if (user.value == "a" && pass.value == "b") {
+        location.href = "main.html";
+    }
+    console.log(user.value)
+})
