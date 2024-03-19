@@ -37,22 +37,26 @@ a, #settings {
 }
 
 .sidebar {
-    width: 180px;
+    width: 270px;
     background-color: lightblue;
     height: 100%;
 }
 
 .person {
     display: flex;
-    
-    margin-bottom: 30px;
+    margin-bottom: 4px;
     align-items: center;
+    justify-content: center;
     background-color: rgb(104, 125, 143);
 }
 
-#friendPfp {
-    width: 50px;
-    margin: 10px;
+.person:hover {
+    background-color: rgb(176, 194, 210);
+}
+
+.friendPfp {
+    width: 40px;
+   
     border-radius: 50%;
 }
 
@@ -60,12 +64,54 @@ a, #settings {
     width: 100%;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
+    
 }
 
-#idk {
-    width: 1200px;
+.msg-box {
+    display: flex;
+    width: 900px;
+    background-color: aliceblue;
+    height: 600px;
+    overflow: scroll;
+    flex-direction: column;
+}
+
+.other-msg {
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    background-color:lavender;
+    border-radius: 14px;
+    width: max-content;
+}
+
+.my-msg {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(187, 130, 187);
+    margin: 4px;
+    border-radius: 14px;
+    align-self: flex-end;
+    width: max-content;
+}
+
+.name {
+    font-size: 14px;
+}
+
+.txt {
+    font-size: 16px;
+    margin: 4px 0px 4px 0px;
+}
+
+.time {
+    font-size: 10px;
+    align-self: flex-end;
+}
+
+.other-msg > div, .my-msg > div {
+    margin: 6px;
 }
 
 .newClass {

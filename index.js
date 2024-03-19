@@ -16,5 +16,5 @@ btn.addEventListener('click', () => {
     if (user.value == "a" && pass.value == "b") {
         location.href = "main.html";
     }
-    console.log(user.value)
+    console.log(user.value);
 })
