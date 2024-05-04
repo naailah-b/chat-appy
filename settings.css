@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik";
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 900px;
+    height: 600px;
+    background-color: rgb(104, 125, 143);
+    border-radius: 18px;
+}
